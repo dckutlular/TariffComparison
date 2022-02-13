@@ -7,7 +7,7 @@ using TariffComparison.Data.Middlewares;
 using TariffComparison.Repository.ProductRepository;
 using TariffComparison.Services.ProductService;
 
-namespace TariffComparison
+namespace TariffComparison.API
 {
     public class Startup
     {

@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using TariffComparison.Data.Models.ProductModels;
 using TariffComparison.Services.ProductService;
 
-namespace TariffComparison.Controllers
+namespace TariffComparison.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
