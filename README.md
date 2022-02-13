@@ -1,6 +1,6 @@
-# Tariff Comparison
+# TariffComparison
 
-The **Tariff Comparison** is an API to compare products based on their annual costs. 
+The **TariffComparison** is an API to compare products based on their annual costs. 
 Built with the target framework **.Net Core 3.1** .
 
 ## Prerequisites
