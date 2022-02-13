@@ -16,4 +16,8 @@ cd TariffComparison.API
 ```sh
 dotnet run
 ```
+Example Request:
+```sh
+curl --location --request GET "http://localhost:5000/api/product/3500"
+```
 
