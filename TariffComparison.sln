@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison", "TariffComparison\TariffComparison.csproj", "{37AFDBD9-74A1-4356-B6D3-D9AD8BD48396}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Data", "TariffComparison.Data\TariffComparison.Data.csproj", "{0D26017B-CF39-4C87-82B2-4CBF2C4A65C1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Services", "TariffComparison.Services\TariffComparison.Services.csproj", "{EE38F5F9-CE12-4200-812C-A584CED9CFA2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Repository", "TariffComparison.Repository\TariffComparison.Repository.csproj", "{6F652402-0089-47F4-8191-A8CDF59E82C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Tests", "TariffComparison.Tests\TariffComparison.Tests.csproj", "{AA142CB2-B09E-4D50-B531-DAA69561D85D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Tests", "TariffComparison.Tests\TariffComparison.Tests.csproj", "{AA142CB2-B09E-4D50-B531-DAA69561D85D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.API", "TariffComparison.API\TariffComparison.API.csproj", "{04FFA10F-85DA-4BA3-B82B-6C7DD91BA36F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37AFDBD9-74A1-4356-B6D3-D9AD8BD48396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37AFDBD9-74A1-4356-B6D3-D9AD8BD48396}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37AFDBD9-74A1-4356-B6D3-D9AD8BD48396}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37AFDBD9-74A1-4356-B6D3-D9AD8BD48396}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D26017B-CF39-4C87-82B2-4CBF2C4A65C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D26017B-CF39-4C87-82B2-4CBF2C4A65C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D26017B-CF39-4C87-82B2-4CBF2C4A65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{AA142CB2-B09E-4D50-B531-DAA69561D85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA142CB2-B09E-4D50-B531-DAA69561D85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA142CB2-B09E-4D50-B531-DAA69561D85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04FFA10F-85DA-4BA3-B82B-6C7DD91BA36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FFA10F-85DA-4BA3-B82B-6C7DD91BA36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FFA10F-85DA-4BA3-B82B-6C7DD91BA36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FFA10F-85DA-4BA3-B82B-6C7DD91BA36F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
